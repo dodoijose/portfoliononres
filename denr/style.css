@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  
+
+Theme Name: DENR CENRO II
+
+Version: 1.0
+
+Author: Denr/dudz
+
+
+*/
+
+body  {
+	font: 14px  Arial, Helvetica, sans-serif;
+	background: #4a6600;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.maincontent #container { 
+	width: 1090px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #100fa9;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.maincontent #header {
+background-color: #4a6600;
+	height: 21px;
+	padding: 47px 160px 0 218px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+#topcenter{
+background-color:#FFFFFF;
+width: 705px;
+height: 21px;
+}
+.maincontent #header h1 {
+	/*margin: 0 166px 0 218px;  zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 0 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.maincontent #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 215px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #100fa9; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 0 3px 0 0; /* padding keeps the content of the div away from the edges */
+}
+
+#navcontainer{
+background: #189616;
+width:218px;
+}
+
+.sideformat{
+padding: 16px 4px 0 20px;
+background-color: #100fa9;
+width: 216px;
+}
+
+
+
+.atitleformat{
+padding: 0 0 15px 0;
+margin: 0 0 8px 0;
+color: #FFFFFF;
+font-size:25px; 
+
+
+}
+.aform{
+text-align: left;
+font-size: 15px;
+color: #FFFFFF;
+
+}
+#spacing{
+padding: 10px 0 10px 0;
+
+}
+#email{
+padding: 0 0 0 16px;
+font-size: 12px;
+
+}
+#atitle{
+border-color: #5857c3;
+border-style: none none solid none;
+border-width: 1px;
+}
+
+.anewsheader{
+
+font-size:16px; 
+color: #9cf5ff;
+
+}
+
+.datepost{
+
+font-size: 12px;
+color: #FFFFFF;
+font-style: italic;
+
+}
+
+.samplepost{
+color: #FFFFFF;
+font-size: 13px;
+padding: 4px 10px 20px 0;
+
+border-style: none none solid none;
+border-width: 1px;
+border-color: #5857c3;
+margin: 0 0 8px 0;
+
+}
+
+
+ #sidebar2 {
+	float: left; /* since this element is floated, a width must be given */
+	 width: 160px;/* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	 /* the background color will be displayed for the length of the content in the column, but no further */
+	/* padding: 0 10px 15px 0; padding keeps the content of the div away from the edges */
+}
+.imagecontainer{
+
+margin: 0 0 0 10px;
+width: 133px;
+border-style: solid;
+border-width: 1px;
+border-color: #d9d9d9;
+background-color: #f5f5f5;
+}
+
+.denrimg{
+margin: 4px;
+text-align:center;
+
+}
+
+.name{
+color: #4f4f4f;
+padding: 6px 0 0 10px;
+
+}
+
+.ofc{
+color: #4a6600;
+font-style: italic;
+padding: 0 0 16px 5px;
+border-style: none none solid none; 
+border-width: 1px;
+border-color: #cccccc;
+width: 133px;
+margin: 0 0 22px 6px;;
+}
+
+#mainContent {
+background:url(image/rightmainshadow.png) repeat-y right;
+min-height:1000px;
+position:relative;
+float:left;
+width: 707px;
+	margin: 0 0 0 0;/*  the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	 padding: 0 5px 0 0; /*remember that padding is the space inside the div box and margin is the space outside the div box */
+} 
+#mainP{
+margin: 0 0 0 20px;
+
+}
+h3{
+font-size: 20px;
+font-weight: 600;
+color: #005601;
+
+}
+
+#mainnews{
+width: 660px;
+position:relative;
+border-style: solid none solid none;
+border-width:1px;
+border-color: #d9d9d9;
+margin: 24px 0 0 0;
+line-height:18px;
+padding: 0 0 32px 0;
+}
+.postformat{
+color: #484848;
+}
+#posttitle{
+font-size: 20px;
+font-weight: 600;
+
+}
+#dateposted{
+font-style: italic;
+}
+
+#postcontent{
+padding: 10px 0 0 0;
+text-align: justify;
+font-size: 12px;
+
+}
+#slidecontainer{
+background-image: url(image/slideimage.jpg);
+width: 666px;
+height: 349px;
+
+}
+
+#thumbnailcontainer{
+width: 700px;
+
+}
+.thumbnail{
+float: left;
+border-width: 1px;
+width: 322px;
+padding: 0 18px 0 0;
+}
+
+
+.upperborder{
+background: url(image/thumbupper.png);
+width:322px;
+height: 8px;
+}
+
+.innercont{
+background-color:  #f4f4f4;
+border-style: none solid none solid;
+border-width: 1px;
+border-color: #d9d9d9;
+padding: 12px;
+}
+
+
+.featuredhead{
+font-size: 16px;
+font-weight: bold;
+color: #3d3d3d;
+padding: 0 0 5px 0;
+
+}
+
+.featuredtitle{
+font-size: 16px;
+color: #005601;
+
+}
+#featuredlogo{
+float: left;
+background-image: url(image/sflower.jpg);
+width: 89px;
+height:87px
+
+}
+
+#featuredcont{
+font-size: 10px
+}
+.lowerborder{
+background: url(image/thumblower.png);
+width: 322px;
+height: 6px;
+
+}
+
+.mergeright{
+float:left;
+width: 872px;
+background:url(image/bottomcurve.png) no-repeat bottom left #FFFFFF;
+}
+
+#othernews{
+padding: 13px;
+}
+.othercontainer{
+padding: 0 0 10px 0;
+
+}
+
+
+.bulletc{
+background-image: url(image/bbullet.png);
+background-repeat: no-repeat;
+width: 9px;
+height: 9px;
+float: left;
+margin: 4px;
+
+}
+
+.othertitle{
+color: #3c3b3b;
+font-size: 12px;
+font-weight: bold;
+
+}
+
+.otherdate{
+color: #6d6d6d;
+margin: 0 0 0 16px;
+font-style: italic;
+font-size: 11px;
+}
+
+.maincontent #footer { 
+
+	padding: 0 15px 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#100fa9;
+} 
+.maincontent #footer p {
+font-size: 11px;
+color: #FFFFFF;
+text-align: right;
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 8px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+#logo{
+background-image:url(image/logo.jpg);
+width: 218px;
+height: 233px;
+
+}
