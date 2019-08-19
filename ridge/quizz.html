@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jose Buhian II</title>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="mycss.css">
+<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript" src="newsletter.js"></script>
+<body>
+
+<div id="navheader">
+   
+  <a href="index.html"><img src="images/logo.jpg"></a>
+
+      <ul>
+        <span >+63-905-933-1807</span><br><br><br><br><br>
+          <a href="index.html"><li>HOME</li></a>
+          <a href="services.html"><li>SERVICES</li></a>
+          <a href="products.html"><li>OUTDOOR EQUIPMENT</li></a>
+          <a href="contact.html"><li>CONTACT</li></a>
+      </ul>    
+</div>
+<div class="left">
+	<div id="leftnav">
+			<ul>
+	          <a href="index.html"><li>Home</li></a>
+	          <a href="services.html"><li>Services</li></a>
+	          <a href="products.html"><li>Outdoor Equipment</li></a>
+	          <a href="contact.html"><li>Contact</li></a>
+	        </ul>  
+	</div>
+</div>
+<div class="main" >
+    <h3 class="quizHeader">Take your knowlede in to the next Level!</h3><br><br>
+  
+	<table style="width:583px;margin-left: 30px;">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. <b> Analogy - </b>Pill : Tablet::<br> ________: _________  </p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Bucket : Pail</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Juice : Wine</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Knife : Blade</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Capsule : Molases</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">2.<b>Analogy - </b> Fry : Oil :: Boil : ____</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Kettle</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">Water</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Bubbles</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Stove</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. The typhoon made the landfall near the_____of North Korea and South Korea.</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Perimeter</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">border</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>circumference</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>territory</label>
+	    	</ul>
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">4. Choose the word that is similar to the word given : <i>Inhabit</i></p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Construct</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Occupy</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Accustom</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Imitate</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter" style="margin-left: 20px;">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+</div>
+<div class="right">
+    <span style="font-size: 25px">
+        Recent Post
+    </span>
+  <div id="rightsidebarcontent">
+      <p>
+      	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<a href="">[...]</a> 
+      </p>
+  </div>
+      <div  id="newsletter">
+  
+                 <span style="font-size: 20px; margin-left: 5px;">NEWSLETTER</span>
+                <input type="email" name="" placeholder="email address" id="eadd" required alt="subscribe for newsletter">
+                <input type="submit" value="Subscribe Now!" id="subsbutton" onclick="submitemail()">
+
+      </div>
+</div>
+<footer>
+<div id="sm">
+      <div><a href="https://www.facebook.com/dodoijose" target="_blank"><img src="images/fb.png"></a></div>
+      <div><a href="https://twitter.com/dodoijose" target="_blank"><img src="images/twitter.png"></a></div>
+      <div><a href="https://www.instagram.com/dodoijose/?hl=en" target="_blank"><img src="images/ig.png"></a></div>
+      <div><a href="https://www.pinterest.com/dodoijose/" target="_blank"><img src="images/pinterest.png"></a></div>
+      <div><a href="https://plus.google.com/+dodoijose" target="_blank"><img src="images/google.png"></a></div>
+
+</div>
+ <p id="address">
+              Mother Rita Homes II,<br> 
+              Candau-ay, Dumaguete City<br> 
+              Negros Oriental, Philippines 6200<br>
+              +63-905-933-1807 <br><br>
+              <a href="mailto:josethesecond@gmail.com">josethesecond@gmail.com</a>
+</p> <span>Take a <b>TEST</b> to excercise your Brain Muscles <a href="quizz.html"><i>Click Here!</i></a></span> 
+ <p align="center " style="clear: both;">
+   Copyright &#169 2018 -Jose Buhian II. All Rights Reserved
+</p>
+</footer>
+</body>
+</html>

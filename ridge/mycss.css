@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+.left {
+  /* background-color:#2196F3; */
+  padding:20px;
+  float:left;
+  width:20%;/*The width is 20%, by default*/
+}
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%;/*The width is 60%, by default*/
+
+}
+
+.main #firstp, #secondp,#thirdp{
+  margin-bottom: 20px;
+  text-align: justify;
+line-height: 25px;
+
+}
+.main span{
+  font-size: 14px;
+  font-style: italic;
+float: right;
+}
+.main span a:hover{color: #fe4600;font-weight: bold;}
+
+#titlepage {
+  font-size: 25px;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  color: #033057;
+}
+
+#titlepage a:link{  color: #033057;}
+#titlepage a:hover{  color: #fe4600;}
+
+
+.right {
+  padding:20px;
+  float:left;
+  width:20%;/*The width is 20%, by default*/
+  font-size: 13px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+#formheader{
+  font-size: 18px;
+}
+.right input{
+  width: 220px;
+  height: 30px;
+  margin: 2%;
+  border:none;
+  padding: 4px;
+}
+
+.right #subsbutton{
+  font-size: 16px;
+  color: #fff;
+  height: 40px;
+  border-right: none;
+  background-color: #fe4600;
+}
+
+#newsletter{margin-top: 150px;}
+/*Use a media query to add a break point at 800px:*/
+@media (max-width:800px) {
+  .left, .main, .right {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+}
+
+h3.quizHeader {
+  font-family: Arial, sans-serif;
+  font-weight:normal;
+  font-size:25px;
+  line-height: 27px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+h2.quizScore{
+  font-family: Arial, sans-serif;
+  font-size:25px;
+}
+
+div.quizAnswers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-top:5px;
+  margin-bottom: 10px;
+}
+
+table {  
+  padding:10px;
+  padding-left:25px;
+  
+}
+
+th {}
+tr {}
+td {}
+.submitter {width:85px;}
+
+.hide {display:none;}
+
+p.question{
+  margin-bottom: 5px;
+}
+
+/*End of Template*/
+
+
+/* Start Personalized*/
+
+body{
+  font-family:"Verdana", sans-serif; background-color: #f1f1f1;}
+#navheader{padding: 10px 0 8px 0;background-color: #48494d; }
+#navheader img{ width: 216px; height: 107px; margin-left: 28px; }
+#navheader span{float: right;font-style: italic; color: #fff; margin: 10px 20px 0 0; font-size: 24px;}
+#navheader ul{list-style-type: none; float:right; }
+#navheader li{
+    display: inline;
+    padding: 4px;
+    margin-right:20px;
+}
+
+#navheader a{font-size: 16px;}
+#navheader a:link{color:#b3b3b3;text-decoration: none;}
+#navheader a:visited{color:#b3b3b3; text-decoration: none;}
+#navheader a:hover{color:#fff;}
+
+#rightsidebarcontent{margin-top: 15px;}
+#rightsidebarcontent a:link{text-decoration: none;}
+#rightsidebarcontent a:hover{color:#fe4600; font-weight: bold;}
+
+#leftnav ul{list-style: none; }
+#leftnav li {
+  margin: 6px 6px 12px 6px;
+  padding: 5px;
+  border:solid 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+#leftnav a:link{color: #000; text-decoration: none;}
+#leftnav a:visited{color: #000; }
+#leftnav a:hover{color: #fe4600;font-weight: bold; }
+
+
+
+#contactform input{
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.servicethumb{
+float: left;
+  width: 300px;
+  height: 340px;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 4px;
+  margin: 2% 4% 4% 4% ;
+  box-shadow: 1px 2px 25px #737373;
+}
+
+.servicetitle{
+  margin:4px 2px 10px 2px;
+  padding-bottom: 5px;
+ text-align: center;
+  font-size: 19px;
+
+}
+#acct{
+   border-bottom: solid 3px #ffa366;
+}
+#webdev{
+  border-bottom: solid 3px #367ebd;
+
+}
+#comp{
+   border-bottom: solid 3px #616a71;
+}
+#digit{
+    border-bottom: solid 3px #ff4600;
+}
+.servicethumb p{
+padding: 4px;
+font-size: 12px;
+text-align: center;
+letter-spacing: 2px;
+line-height: 16px;
+}
+
+.servicethumb img{
+  width: 100px;
+  height: 100px;
+  margin: 6px 0 6px 90px;
+}
+.servicethumb button{
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  background-color: #ff4600;
+  width: 285px;
+  height: 40px;
+}
+/*footer*/
+
+footer{clear: both; padding:  20px 0 10px 0;}
+footer p{
+  font-size: 11px
+}
+footer img{
+  margin: 6px;
+
+  width: 30px;
+  height: 30px
+}
+#sm{
+float: left;
+  width: 50px;
+}
+#address{
+  float: left; 
+  margin: 45px 10px 10px 10px;
+  font-size: 15px;
+  text-align: left;
+  line-height:20px;
+  color: #033057;
+  font-style: italic;
+}
+
+
+/*Products*/
+
+.prodthumb{
+margin:  10px 4% 20px 1%;
+float: left;
+width: 202px;
+height: 255px;
+border:solid 1px #bebebe;
+box-shadow: 0 0 20px #bebebe;
+}
+.prodthumb span{
+  float: left;
+}
+
