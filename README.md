@@ -1,3 +1,13 @@
-# portfoliononres
-Non Responsive websites
-<h1><a href="https://dodoijose.github.io/portfoliononres/mcherevillehotel/">MChereville Hotel </a></h1>
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>Jose Buhian - Git</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Jose Buhian</h2>
+        </div>
+    </body>
+
+</html>
