@@ -1,7 +1,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;margin: 0;padding: 0;    
-    padding-top: 56px;
+   
 } 
 nav{
     font-size: 14px;
@@ -15,17 +15,14 @@ nav{
 
 
 #slider{
-        background-color: #eb5055;
+        background-color: #f5676b;
         border-bottom: solid 8px #ea676b;
        
     
 }
-#iphones{padding: 80px 0 65px 0; }
-#next,#prev{ margin: 20% 0 0 0 ;}
-#slider::after{
-        content: "";
-        clear: both;
-        display: table
+#iphones{padding: 120px 0 25px 0; 
+
+   
 }
 
         
@@ -123,5 +120,4 @@ nav{
     color: #666d89;
     padding: 30px 0 30px 0;
 }
-
 
